@@ -211,28 +211,9 @@ let musicLinks = {
 };
 
 let digitalWorks = [
-  { 
-    id: "falaises", 
-    title: "Falaises", 
-    description: "Your description for Falaises", 
-    date: "2025", 
-    imageUrl: "images/Falaises.jpg" 
-  },
-  { 
-    id: "mecanisphere", 
-    title: "Mécanisphère", 
-    description: "Your description for Mécanisphère", 
-    date: "2025", 
-    imageUrl: "images/Mécanisphère.jpg" 
-  },
-  { 
-    id: "vagues", 
-    title: "Vagues et Brumes", 
-    description: "Your description for Vagues et Brumes", 
-    date: "2025", 
-    imageUrl: "images/Vagues-et-Brumes.jpg" 
-  }
+  { id: "test", title: "Test", description: "Test", date: "2025", imageUrl: "https://picsum.photos/id/20/400/400" }
 ];
+
 let physicalWorks = [
   { id: "phys1", name: "INDUSTRIAL MIRAGE", date: "2022", description: "Acrylic on canvas, 120x90cm. Brutalist architecture.", imageUrl: "https://picsum.photos/id/10/400/400" },
   { id: "phys2", name: "MODEM PAINTINGS", date: "2023", description: "Oil and graphite on wood. Dial-up reinterpreted.", imageUrl: "https://picsum.photos/id/15/400/400" },
