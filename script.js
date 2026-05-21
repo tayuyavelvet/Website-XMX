@@ -211,7 +211,27 @@ let musicLinks = {
 };
 
 let digitalWorks = [
-  { id: "test", title: "Test", description: "Test", date: "2025", imageUrl: "https://picsum.photos/id/20/400/400" }
+  { 
+    id: "falaises", 
+    title: "Falaises", 
+    description: "Falaises de pierre sombres. Cascade sanguine dont la mousse éclate sur un arbre pur.", 
+    date: "3/26/2025", 
+    imageUrl: "Falaises.png"
+  },
+  { 
+    id: "mecanisphere", 
+    title: "Mécanisphère",
+    description: "Engrenage infernal appatant vers une dimension profonde, chaines d'entrave qui entrainent dans l'engrenage", 
+    date: "3/26/2025", 
+    imageUrl: "iMécanisphère.jpg"
+  },
+  { 
+    id: "vagues", 
+    title: "Vagues et Brumes", 
+    description: "Douceur d'une vague puissante, dont son qui s'en échappe souffle après avoir laissé l'air brumeux. ", 
+    date: "3/26/2025", 
+    imageUrl: "Vagues-et-Brumes.png"
+  }
 ];
 
 let physicalWorks = [
