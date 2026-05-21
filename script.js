@@ -30,7 +30,7 @@ const translations = {
     supportHeader: "SOUTENIR L'ARTISTE",
     supportText: "Contenu exclusif, accès anticipé",
     patreon: "PATREON",
-    footer: "© Anhedonia Schizophrenica Nevrosa / キーハートから離れて — grille brutaliste"
+    footer: "© Anhedonia Schizophrenica Nevrosa / キーハートから離れて — 小貓心"
   },
   EN: {
     navMusic: "MUSIC",
@@ -60,7 +60,7 @@ const translations = {
     supportHeader: "SUPPORT THE ARTIST",
     supportText: "Exclusive content, early access",
     patreon: "PATREON",
-    footer: "© Anhedonia Schizophrenica Nevrosa / キーハートから離れて — brutalist grid"
+    footer: "© Anhedonia Schizophrenica Nevrosa / キーハートから離れて —  小貓心"
   },
   DE: {
     navMusic: "MUSIK",
@@ -90,7 +90,7 @@ const translations = {
     supportHeader: "KÜNSTLER UNTERSTÜTZEN",
     supportText: "Exklusive Inhalte, früher Zugang",
     patreon: "PATREON",
-    footer: "© Anhedonia Schizophrenica Nevrosa / キーハートから離れて — brutalismus raster"
+    footer: "© Anhedonia Schizophrenica Nevrosa / キーハートから離れて —  小貓心"
   },
   ZH: {
     navMusic: "音樂",
@@ -120,7 +120,7 @@ const translations = {
     supportHeader: "支持藝術家",
     supportText: "獨家內容，搶先體驗",
     patreon: "PATREON",
-    footer: "© Anhedonia Schizophrenica Nevrosa / キーハートから離れて — 粗野主義網格"
+    footer: "© Anhedonia Schizophrenica Nevrosa / キーハートから離れて —  小貓心"
   },
   JA: {
     navMusic: "音楽",
@@ -150,7 +150,7 @@ const translations = {
     supportHeader: "アーティストをサポート",
     supportText: "限定コンテンツ、早期アクセス",
     patreon: "PATREON",
-    footer: "© Anhedonia Schizophrenica Nevrosa / キーハートから離れて — ブルータリストグリッド"
+    footer: "© Anhedonia Schizophrenica Nevrosa / キーハートから離れて —  小貓心"
   },
   TH: {
     navMusic: "เพลง",
@@ -180,7 +180,7 @@ const translations = {
     supportHeader: "สนับสนุนศิลปิน",
     supportText: "เนื้อหาพิเศษ เข้าถึงก่อนใคร",
     patreon: "PATREON",
-    footer: "© Anhedonia Schizophrenica Nevrosa / キーハートから離れて — ตารางบรูทัลลิสต์"
+    footer: "© Anhedonia Schizophrenica Nevrosa / キーハートから離れて —  小貓心"
   }
 };
 
