@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Anhedonia Schizophrenica Nevrosa | キーハートから離れて — Brutalist Grid</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <div class="site-header">
+    <div class="logo-area">
+      <img src="XMX LOGO TRANS.png" alt="Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+      <div class="logo-text" style="display:none;">XMX</div>
+      <div class="logo-text" style="display:block;">XMX // AUDIOVISUAL</div>
+    </div>
+    <div class="lang-switch" id="langSwitcher">
+      <button class="lang-btn" data-lang="FR">FR</button>
+      <button class="lang-btn" data-lang="EN">EN</button>
+      <button class="lang-btn" data-lang="DE">DE</button>
+      <button class="lang-btn" data-lang="ZH">ZH</button>
+      <button class="lang-btn" data-lang="JA">JA</button>
+      <button class="lang-btn" data-lang="TH">TH</button>
+    </div>
+  </div>
+
+  <div class="navbar" id="navbar">
+    <div class="nav-item" data-page="music" data-key="navMusic">MUSIC</div>
+    <div class="nav-item" data-page="digital" data-key="navDigital">DIGITAL WORKS</div>
+    <div class="nav-item" data-page="physical" data-key="navPhysical">PHYSICAL WORKS</div>
+    <div class="nav-item" data-page="shop" data-key="navShop">SHOP</div>
+    <div class="nav-item" data-page="blog" data-key="navBlog">BLOG</div>
+    <div class="nav-item" data-page="support" data-key="navSupport">SUPPORT ME</div>
+  </div>
+
+  <main id="app-root"></main>
+  <footer id="siteFooter">© Anhedonia Schizophrenica Nevrosa / キーハートから離れて — brutalist grid system</footer>
+</div>
+
+<div id="detail-modal" class="modal-overlay">
+  <div class="modal-content">
+    <div class="modal-header">
+      <span id="modalTitle">DETAIL VIEW</span>
+      <button id="close-modal-btn" style="background:none; border:1px solid black;">✖</button>
+    </div>
+    <div id="modal-dynamic-body" class="modal-body"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
