@@ -139,12 +139,6 @@ body {
   border: 1px solid #111;
 }
 
-@media (max-width: 700px) {
-  .music-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
 .music-card {
   border-right: 1px solid #111;
   border-bottom: 1px solid #111;
@@ -154,17 +148,8 @@ body {
   background: #fefcf8;
 }
 
-.music-card:nth-child(3n) {
+.music-card:nth-child(4n) {
   border-right: none;
-}
-
-@media (max-width: 700px) {
-  .music-card {
-    border-right: 1px solid #111;
-  }
-  .music-card:nth-child(2n) {
-    border-right: none;
-  }
 }
 
 .music-card:hover {
@@ -366,18 +351,34 @@ footer {
   font-family: monospace;
 }
 
+/* Mobile responsive */
 @media (max-width: 700px) {
   .container {
     padding: 0 1rem;
   }
+  
   .modal-body {
     flex-direction: column;
   }
+  
   .toggle-btn {
     font-size: 0.6rem;
     padding: 0.5rem 0.8rem;
   }
+  
   .logo-img {
     height: 40px;
+  }
+  
+  .music-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .music-card:nth-child(4n) {
+    border-right: 1px solid #111;
+  }
+  
+  .music-card:nth-child(2n) {
+    border-right: none;
   }
 }
