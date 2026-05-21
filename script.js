@@ -199,25 +199,39 @@ let musicLinks = {
   [ARTIST_ONE]: {
     SUBVERT: "https://www.subvert.fm/anhedonia-schizophrenica-nevrosa",
     BANDCAMP: "https://anhedoniaschizophrenicanevrosa.bandcamp.com/",
-    TIDAL: "https://tidal.com/browse/artist/anhedonia-schizophrenica",
-    "網易雲音樂": "https://music.163.com/anhedonia",
-    QQMusic: "https://y.qq.com/anhedonia",
-    Qobuz: "https://www.qobuz.com/anhedonia"
+    TIDAL: "https://tidal.com/artist/62513676",
+    "網易雲音樂": "https://music.163.com/#/artist?id=98949119"
   },
   [ARTIST_TWO]: {
     SUBVERT: "https://www.subvert.fm/keyheart",
-    BANDCAMP: "https://keyheart.bandcamp.com/",
-    TIDAL: "https://tidal.com/keyheart",
-    "網易雲音樂": "https://music.163.com/keyheart",
-    QQMusic: "https://y.qq.com/keyheart",
-    Qobuz: "https://www.qobuz.com/keyheart"
+    BANDCAMP: "https://karahanarete.bandcamp.com/",
+    TIDAL: "https://tidal.com/artist/48858719",
+    "網易雲音樂": "https://music.163.com/#/artist?id=56107302"
   }
 };
 
 let digitalWorks = [
-  { id: "dig1", title: "GLITCH_REALM", description: "Generative composition, 2024. Digital decay and organic textures.", date: "2024-02-10", imageUrl: "https://picsum.photos/id/20/400/400" },
-  { id: "dig2", title: "SILICON_WAVES", description: "Mixed media, AI collaboration. Code and emotion.", date: "2024-06-18", imageUrl: "https://picsum.photos/id/26/400/400" },
-  { id: "dig3", title: "CYBER_FEVER", description: "Fragment series, digital painting. Grid aesthetics.", date: "2023-11-01", imageUrl: "https://picsum.photos/id/29/400/400" }
+  { 
+    id: "falaises", 
+    title: "Falaises", 
+    description: "Falaises de pierre sombres. Cascade sanguine dont la mousse éclate sur un arbre pur.", 
+    date: "3/26/2025", 
+    imageUrl: "Falaises.png" 
+  },
+  { 
+    id: "mecanisphere", 
+    title: "Mécanisphère", F
+    description: "Engrenage infernal appatant vers une dimension profonde, chaines d'entrave qui entrainent dans l'engrenage.", 
+    date: "3/26/2025", 
+    imageUrl: "iMécanisphère.jpg" 
+  },
+  { 
+    id: "vagues", 
+    title: "Vagues et Brumes", 
+    description: "Douceur d'une vague puissante, dont son qui s'en échappe souffle après avoir laissé l'air brumeux. ", 
+    date: "3/26/2025", 
+    imageUrl: "Vagues-et-Brumes.png" 
+  }
 ];
 
 let physicalWorks = [
