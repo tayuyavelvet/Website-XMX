@@ -214,26 +214,25 @@ let digitalWorks = [
   { 
     id: "falaises", 
     title: "Falaises", 
-    description: "Falaises de pierre sombres. Cascade sanguine dont la mousse éclate sur un arbre pur.", 
-    date: "3/26/2025", 
-    imageUrl: "Falaises.png" 
+    description: "Your description for Falaises", 
+    date: "2025", 
+    imageUrl: "images/Falaises.jpg" 
   },
   { 
     id: "mecanisphere", 
-    title: "Mécanisphère", F
-    description: "Engrenage infernal appatant vers une dimension profonde, chaines d'entrave qui entrainent dans l'engrenage.", 
-    date: "3/26/2025", 
-    imageUrl: "iMécanisphère.jpg" 
+    title: "Mécanisphère", 
+    description: "Your description for Mécanisphère", 
+    date: "2025", 
+    imageUrl: "images/Mécanisphère.jpg" 
   },
   { 
     id: "vagues", 
     title: "Vagues et Brumes", 
-    description: "Douceur d'une vague puissante, dont son qui s'en échappe souffle après avoir laissé l'air brumeux. ", 
-    date: "3/26/2025", 
-    imageUrl: "Vagues-et-Brumes.png" 
+    description: "Your description for Vagues et Brumes", 
+    date: "2025", 
+    imageUrl: "images/Vagues-et-Brumes.jpg" 
   }
 ];
-
 let physicalWorks = [
   { id: "phys1", name: "INDUSTRIAL MIRAGE", date: "2022", description: "Acrylic on canvas, 120x90cm. Brutalist architecture.", imageUrl: "https://picsum.photos/id/10/400/400" },
   { id: "phys2", name: "MODEM PAINTINGS", date: "2023", description: "Oil and graphite on wood. Dial-up reinterpreted.", imageUrl: "https://picsum.photos/id/15/400/400" },
