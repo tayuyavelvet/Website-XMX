@@ -30,7 +30,7 @@ const translations = {
     supportHeader: "SOUTENIR L'ARTISTE",
     supportText: "Contenu exclusif, accès anticipé",
     patreon: "PATREON",
-    footer: "© Anhedonia Schizophrenica Nevrosa / キーハートから離れて — 小貓心"
+    footer: "© 小貓心 — grille brutaliste"
   },
   EN: {
     navMusic: "MUSIC",
@@ -60,7 +60,7 @@ const translations = {
     supportHeader: "SUPPORT THE ARTIST",
     supportText: "Exclusive content, early access",
     patreon: "PATREON",
-    footer: "© Anhedonia Schizophrenica Nevrosa / キーハートから離れて —  小貓心"
+    footer: "© 小貓心 — brutalist grid"
   },
   DE: {
     navMusic: "MUSIK",
@@ -90,7 +90,7 @@ const translations = {
     supportHeader: "KÜNSTLER UNTERSTÜTZEN",
     supportText: "Exklusive Inhalte, früher Zugang",
     patreon: "PATREON",
-    footer: "© Anhedonia Schizophrenica Nevrosa / キーハートから離れて —  小貓心"
+    footer: "© 小貓心 — brutalismus raster"
   },
   ZH: {
     navMusic: "音樂",
@@ -120,7 +120,7 @@ const translations = {
     supportHeader: "支持藝術家",
     supportText: "獨家內容，搶先體驗",
     patreon: "PATREON",
-    footer: "© Anhedonia Schizophrenica Nevrosa / キーハートから離れて —  小貓心"
+    footer: "© 小貓心 — 粗野主義網格"
   },
   JA: {
     navMusic: "音楽",
@@ -150,7 +150,7 @@ const translations = {
     supportHeader: "アーティストをサポート",
     supportText: "限定コンテンツ、早期アクセス",
     patreon: "PATREON",
-    footer: "© Anhedonia Schizophrenica Nevrosa / キーハートから離れて —  小貓心"
+    footer: "© 小貓心 — ブルータリストグリッド"
   },
   TH: {
     navMusic: "เพลง",
@@ -180,7 +180,7 @@ const translations = {
     supportHeader: "สนับสนุนศิลปิน",
     supportText: "เนื้อหาพิเศษ เข้าถึงก่อนใคร",
     patreon: "PATREON",
-    footer: "© Anhedonia Schizophrenica Nevrosa / キーハートから離れて —  小貓心"
+    footer: "© 小貓心 — ตารางบรูทัลลิสต์"
   }
 };
 
@@ -210,34 +210,67 @@ let musicLinks = {
   }
 };
 
+// DIGITAL WORKS
 let digitalWorks = [
   { 
     id: "falaises", 
     title: "Falaises", 
     description: "Falaises de pierre sombres. Cascade sanguine dont la mousse éclate sur un arbre pur.", 
     date: "3/26/2025", 
-    imageUrl: "images/Falaises.png"
+    imageUrl: "images/digital-works/Falaises.png"
   },
   { 
     id: "mecanisphere", 
     title: "Mécanisphère",
     description: "Engrenage infernal appatant vers une dimension profonde, chaines d'entrave qui entrainent dans l'engrenage", 
     date: "3/26/2025", 
-    imageUrl: "images/Mécanisphère.jpg"
+    imageUrl: "images/digital-works/mecanisphere.jpg"
   },
   { 
     id: "vagues", 
     title: "Vagues et Brumes", 
-    description: "Douceur d'une vague puissante, dont son qui s'en échappe souffle après avoir laissé l'air brumeux. ", 
+    description: "Douceur d'une vague puissante, dont son qui s'en échappe souffle après avoir laissé l'air brumeux.", 
     date: "3/26/2025", 
-    imageUrl: "images/Vagues-et-Brumes.png"
+    imageUrl: "images/digital-works/Vagues-et-Brumes.png"
   }
 ];
 
+// PHYSICAL WORKS with multiple images per item
 let physicalWorks = [
-  { id: "phys1", name: "INDUSTRIAL MIRAGE", date: "2022", description: "Acrylic on canvas, 120x90cm. Brutalist architecture.", imageUrl: "https://picsum.photos/id/10/400/400" },
-  { id: "phys2", name: "MODEM PAINTINGS", date: "2023", description: "Oil and graphite on wood. Dial-up reinterpreted.", imageUrl: "https://picsum.photos/id/15/400/400" },
-  { id: "phys3", name: "W95_DESKTOP_RELIC", date: "2024", description: "Found object & spray. Homage to early UI.", imageUrl: "https://picsum.photos/id/32/400/400" }
+  { 
+    id: "jacket1", 
+    name: "Embroidered Denim Jacket", 
+    date: "2025", 
+    description: "Graphic jacket. Made from a red cotton shirt. Bleached <<shining heart>> and <<splatter stain>> patterns and back panel. Decorative safety pins on collar and buttonline. Spiraling zipper pinned on right sleeve. Semi precious stone jewelry hanging from pockets.",
+    previewImage: "images/physical-works/jacket1-front.jpg",
+    detailImages: [
+      "images/physical-works/jacket1-back.jpg",
+      "images/physical-works/jacket1-collar.jpg",
+      "images/physical-works/jacket1-flash-front.jpg",
+      "images/physical-works/jacket1-front.jpg",
+      "images/physical-works/jacket1-sleeve.jpg",
+      "images/physical-works/jacket1-stone.jpg",
+      "images/physical-works/jacket1-stone-2.jpg"
+    ]
+  },
+  { 
+    id: "trousers1", 
+    name: "Deconstructed Cargo Trousers", 
+    date: "2026", 
+    description: "Hybrid trousers. From two pair of pants (dark grey and red) and a pair of black shorts pieced together. Enlarged ends with open red panels tied on the size, sewn chaotically. Added back scratch belt for adjusting. Hand-sewn faux-patchwork red stitches. Distressed hand-made patches. Additional pocket with badge, cz iced-out cuban link and fake pearl necklaces. Zip ties and red distressed patch on the back.",
+    previewImage: "images/physical-works/trousers1-front.jpg",
+    detailImages: [
+      "images/physical-works/trousers1-adjusting-belt.jpg",
+      "images/physical-works/trousers1-back.jpg",
+      "images/physical-works/trousers1-back-patch.jpg",
+      "images/physical-works/trousers1-double-belt.jpg",
+      "images/physical-works/trousers1-front.jpg",
+      "images/physical-works/trousers1-handmade-patch.jpg",
+      "images/physical-works/trousers1-hand-stiches.jpg",
+      "images/physical-works/trousers1-pockets.jpg",
+      "images/physical-works/trousers1-zip.jpg"
+    ]
+  }
 ];
 
 let blogPosts = [
@@ -340,7 +373,7 @@ function renderPhysicalPage(container) {
         <div class="gallery-grid">
           ${physicalWorks.map(p => `
             <div class="gallery-card" data-physical-id="${p.id}">
-              <img src="${p.imageUrl}" class="gallery-img" alt="${p.name}">
+              <img src="${p.previewImage}" class="gallery-img" alt="${p.name}">
               <div class="card-title">${p.name}<span style="float:right;">${p.date}</span></div>
             </div>
           `).join('')}
@@ -385,7 +418,7 @@ function renderBlogPage(container) {
     </div>
   `;
   container.innerHTML = html;
-  
+
   function renderBlogList() {
     let posts = [...blogPosts];
     const search = document.getElementById("blog-search")?.value.toLowerCase() || "";
@@ -418,11 +451,38 @@ function renderSupportPage(container) {
 function showDetailModal(type, item) {
   const modal = document.getElementById("detail-modal");
   const modalBody = document.getElementById("modal-dynamic-body");
+  
   if (type === "digital") {
     modalBody.innerHTML = `<div class="modal-artwork"><img src="${item.imageUrl}"></div><div class="modal-info"><h2>${item.title}</h2><p><strong>${item.date}</strong></p><p>${item.description}</p></div>`;
-  } else if (type === "physical") {
-    modalBody.innerHTML = `<div class="vertical-physical-list"><div class="physical-entry"><div class="physical-img"><img src="${item.imageUrl}"></div><div class="physical-desc"><h3>${item.name}</h3><strong>${item.date}</strong><p>${item.description}</p></div></div></div>`;
+  } 
+  else if (type === "physical") {
+    let imagesHtml = '';
+    if (item.detailImages && item.detailImages.length > 0) {
+      imagesHtml = item.detailImages.map(img => `
+        <div class="physical-entry">
+          <div class="physical-img"><img src="${img}"></div>
+          <div class="physical-desc">
+            <h3>${item.name}</h3>
+            <strong>${item.date}</strong>
+            <p>${item.description}</p>
+          </div>
+        </div>
+      `).join('');
+    } else {
+      imagesHtml = `
+        <div class="physical-entry">
+          <div class="physical-img"><img src="${item.previewImage}"></div>
+          <div class="physical-desc">
+            <h3>${item.name}</h3>
+            <strong>${item.date}</strong>
+            <p>${item.description}</p>
+          </div>
+        </div>
+      `;
+    }
+    modalBody.innerHTML = `<div class="vertical-physical-list">${imagesHtml}</div>`;
   }
+  
   modal.classList.add("active");
   document.getElementById("close-modal-btn").onclick = () => modal.classList.remove("active");
   modal.onclick = (e) => { if (e.target === modal) modal.classList.remove("active"); };
