@@ -474,3 +474,37 @@ footer {
   font-family: 'DM Mono', monospace;
   font-size: 0.7rem;
 }
+
+/* Style the dropdown options menu */
+.search-bar select option {
+  background: #fefcf8;
+  color: #111;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.75rem;
+  padding: 0.5rem;
+  border: none;
+}
+
+/* Style the select dropdown when opened */
+.search-bar select:focus {
+  outline: none;
+  border-color: #111;
+}
+
+/* For Firefox - style dropdown */
+.search-bar select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #111;
+}
+
+/* Style the container of the dropdown */
+.search-bar select optgroup,
+.search-bar select option {
+  background-color: #fefcf8;
+  border-bottom: 1px solid #e2dfd7;
+}
+
+.search-bar select option:hover {
+  background-color: #111 !important;
+  color: #f5f3ef !important;
+}
