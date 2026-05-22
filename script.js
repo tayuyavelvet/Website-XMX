@@ -216,21 +216,21 @@ let digitalWorks = [
     title: "Falaises", 
     description: "Falaises de pierre sombres. Cascade sanguine dont la mousse éclate sur un arbre pur.", 
     date: "3/26/2025", 
-    imageUrl: "Falaises.png"
+    imageUrl: "images/Falaises.png"
   },
   { 
     id: "mecanisphere", 
     title: "Mécanisphère",
     description: "Engrenage infernal appatant vers une dimension profonde, chaines d'entrave qui entrainent dans l'engrenage", 
     date: "3/26/2025", 
-    imageUrl: "iMécanisphère.jpg"
+    imageUrl: "images/iMécanisphère.jpg"
   },
   { 
     id: "vagues", 
     title: "Vagues et Brumes", 
     description: "Douceur d'une vague puissante, dont son qui s'en échappe souffle après avoir laissé l'air brumeux. ", 
     date: "3/26/2025", 
-    imageUrl: "Vagues-et-Brumes.png"
+    imageUrl: "images/Vagues-et-Brumes.png"
   }
 ];
 
