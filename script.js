@@ -276,7 +276,7 @@ let physicalWorks = [
 let blogPosts = [
   { 
     id: "album-making-process", 
-    title: "The Making Process of <<The Peculiar Perichromatic Lamb Club>> ", 
+    title: "The Making Process of 'The Peculiar Perichromatic Lamb Club' ", 
     date: "2026-05-22", 
     categories: ["music", "album", "behind-the-scenes", "artistic-process", "art"], 
     body: `
