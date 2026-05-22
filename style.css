@@ -492,3 +492,47 @@ footer {
     min-width: 120px;
   }
 }
+
+/* Blog dropdown buttons - brutalist style */
+.search-bar select {
+  background: #fefcf8;
+  border: 2px solid #111;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.75rem;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+  color: #111;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'></polyline></svg>");
+  background-repeat: no-repeat;
+  background-position: right 0.8rem center;
+}
+
+.search-bar select:hover {
+  background-color: #e9e5dc;
+}
+
+.search-bar select:focus {
+  outline: none;
+  border-color: #111;
+}
+
+.search-bar input {
+  background: #fefcf8;
+  border: 2px solid #111;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+  color: #111;
+}
+
+.search-bar input:focus {
+  outline: none;
+  border-color: #111;
+}
+
+.search-bar input::placeholder {
+  color: #888;
+}
