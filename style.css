@@ -382,3 +382,48 @@ footer {
     border-right: none;
   }
 }
+
+/* Physical modal - single description with scrollable gallery */
+.physical-modal-container {
+  width: 100%;
+}
+
+.physical-modal-info {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #111;
+}
+
+.physical-modal-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.physical-modal-gallery {
+  max-height: 60vh;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.physical-modal-image {
+  margin-bottom: 1.5rem;
+}
+
+.physical-modal-image img {
+  width: 100%;
+  border: 2px solid #111;
+}
+
+/* Scrollbar styling (optional) */
+.physical-modal-gallery::-webkit-scrollbar {
+  width: 8px;
+}
+
+.physical-modal-gallery::-webkit-scrollbar-track {
+  background: #e2dfd7;
+  border: 1px solid #111;
+}
+
+.physical-modal-gallery::-webkit-scrollbar-thumb {
+  background: #111;
+}

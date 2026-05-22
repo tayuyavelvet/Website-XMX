@@ -224,7 +224,7 @@ let digitalWorks = [
     title: "Mécanisphère",
     description: "Engrenage infernal appatant vers une dimension profonde, chaines d'entrave qui entrainent dans l'engrenage", 
     date: "3/26/2025", 
-    imageUrl: "images/digital-works/mecanisphere.jpg"
+    imageUrl: "images/digital-works/Mécanisphère.jpg"
   },
   { 
     id: "vagues", 
@@ -239,9 +239,9 @@ let digitalWorks = [
 let physicalWorks = [
   { 
     id: "jacket1", 
-    name: "Embroidered Denim Jacket", 
+    name: "Graphic Jacket", 
     date: "2025", 
-    description: "Graphic jacket. Made from a red cotton shirt. Bleached <<shining heart>> and <<splatter stain>> patterns and back panel. Decorative safety pins on collar and buttonline. Spiraling zipper pinned on right sleeve. Semi precious stone jewelry hanging from pockets.",
+    description: "Graphic jacket. Made from a red cotton shirt. Bleached 'shining heart' and 'splatter stain' patterns and back panel. Decorative safety pins on collar and buttonline. Spiraling zipper pinned on right sleeve. Semi precious stone jewelry hanging from pockets.",
     previewImage: "images/physical-works/jacket1-front.jpg",
     detailImages: [
       "images/physical-works/jacket1-back.jpg",
@@ -255,9 +255,9 @@ let physicalWorks = [
   },
   { 
     id: "trousers1", 
-    name: "Deconstructed Cargo Trousers", 
-    date: "2026", 
-    description: "Hybrid trousers. From two pair of pants (dark grey and red) and a pair of black shorts pieced together. Enlarged ends with open red panels tied on the size, sewn chaotically. Added back scratch belt for adjusting. Hand-sewn faux-patchwork red stitches. Distressed hand-made patches. Additional pocket with badge, cz iced-out cuban link and fake pearl necklaces. Zip ties and red distressed patch on the back.",
+    name: "Hybrid Trousers", 
+    date: "2025", 
+    description: "Hybrid trousers. From two pair of pants (dark grey and red) and a pair of black shorts pieced together. Enlarged ends with open red panels tied on the side, sewn chaotically. Added back scratch belt for adjusting. Hand-sewn faux-patchwork red stitches. Distressed hand-made patches. Additional pocket with badge, cz iced-out cuban link and fake pearl necklaces. Zip ties and red distressed patch on the back.",
     previewImage: "images/physical-works/trousers1-front.jpg",
     detailImages: [
       "images/physical-works/trousers1-adjusting-belt.jpg",
@@ -453,34 +453,38 @@ function showDetailModal(type, item) {
   const modalBody = document.getElementById("modal-dynamic-body");
   
   if (type === "digital") {
-    modalBody.innerHTML = `<div class="modal-artwork"><img src="${item.imageUrl}"></div><div class="modal-info"><h2>${item.title}</h2><p><strong>${item.date}</strong></p><p>${item.description}</p></div>`;
+    modalBody.innerHTML = `
+      <div class="modal-artwork"><img src="${item.imageUrl}"></div>
+      <div class="modal-info">
+        <h2>${item.title}</h2>
+        <p><strong>${item.date}</strong></p>
+        <p>${item.description}</p>
+      </div>
+    `;
   } 
   else if (type === "physical") {
+    // Build image gallery HTML
     let imagesHtml = '';
     if (item.detailImages && item.detailImages.length > 0) {
       imagesHtml = item.detailImages.map(img => `
-        <div class="physical-entry">
-          <div class="physical-img"><img src="${img}"></div>
-          <div class="physical-desc">
-            <h3>${item.name}</h3>
-            <strong>${item.date}</strong>
-            <p>${item.description}</p>
-          </div>
+        <div class="physical-modal-image">
+          <img src="${img}" alt="${item.name} detail">
         </div>
       `).join('');
-    } else {
-      imagesHtml = `
-        <div class="physical-entry">
-          <div class="physical-img"><img src="${item.previewImage}"></div>
-          <div class="physical-desc">
-            <h3>${item.name}</h3>
-            <strong>${item.date}</strong>
-            <p>${item.description}</p>
-          </div>
-        </div>
-      `;
     }
-    modalBody.innerHTML = `<div class="vertical-physical-list">${imagesHtml}</div>`;
+    
+    modalBody.innerHTML = `
+      <div class="physical-modal-container">
+        <div class="physical-modal-info">
+          <h2>${item.name}</h2>
+          <p><strong>${item.date}</strong></p>
+          <p>${item.description}</p>
+        </div>
+        <div class="physical-modal-gallery">
+          ${imagesHtml}
+        </div>
+      </div>
+    `;
   }
   
   modal.classList.add("active");
