@@ -210,7 +210,6 @@ let musicLinks = {
   }
 };
 
-// DIGITAL WORKS
 let digitalWorks = [
   { 
     id: "falaises", 
@@ -224,7 +223,7 @@ let digitalWorks = [
     title: "Mécanisphère",
     description: "Engrenage infernal appatant vers une dimension profonde, chaines d'entrave qui entrainent dans l'engrenage", 
     date: "3/26/2025", 
-    imageUrl: "images/digital-works/Mécanisphère.jpg"
+    imageUrl: "images/digital-works/mecanisphere.jpg"
   },
   { 
     id: "vagues", 
@@ -235,7 +234,6 @@ let digitalWorks = [
   }
 ];
 
-// PHYSICAL WORKS with multiple images per item
 let physicalWorks = [
   { 
     id: "jacket1", 
@@ -276,11 +274,11 @@ let physicalWorks = [
 let blogPosts = [
   { 
     id: "album-making-process", 
-    title: "The Making Process of 'The Peculiar Perichromatic Lamb Club' ", 
+    title: "The Making Process of 'The Peculiar Perichromatic Lamb Club'", 
     date: "2026-05-22", 
     categories: ["music", "album", "behind-the-scenes", "artistic-process", "art"], 
     body: `
-            <h1>An Album in 4.5 days</h1>
+      <h1>An Album in 4.5 days</h1>
       <p>The motivation to create this project came from multiple things :</p>
       <ul>
         <li>No Album published in 19 years of being a musician.</li>
@@ -289,62 +287,60 @@ let blogPosts = [
       </ul>
       <p>So this is how I ended up motivating myself to make this album. It is the result of accumulated music frustration from both thinking I have not really made any full length project (with real recorded instruments and vocals) and needing to exteriorize by making music that allows me to not use my brain much.</p>
 
-       <p>It is not a project to be taken too seriously. It's a half-serious, half-joke project. Half serious in that it is an actual release and consider it as a legitimate project. Half-joke in that it is clearly not the best value for music even of this kind.</p>
+      <p>It is not a project to be taken too seriously. It's a half-serious, half-joke project. Half serious in that it is an actual release and consider it as a legitimate project. Half-joke in that it is clearly not the best value for music even of this kind.</p>
       
       <h2>The Sound</h2>
-      <p>This album has a rather characteristic sound, some would say shitty sound, and I wouldn't be able to say otherwise. The sound goal is actually one of the things that started the motivation to make something. </p>
+      <p>This album has a rather characteristic sound, some would say shitty sound, and I wouldn't be able to say otherwise. The sound goal is actually one of the things that started the motivation to make something.</p>
 
-      <p>I used a preset from Archetype: Rabea X that immediately made me go "wow, this tone sucks !". If I remember correctly, the tone is called "seems familiar", or something like that. That tone is so typical of some shitty records with 100 views I have eneded up listening to on YouTube at 3am, it made me think :</p>
+      <p>I used a preset from Archetype: Rabea X that immediately made me go "wow, this tone sucks!". If I remember correctly, the tone is called "seems familiar", or something like that. That tone is so typical of some shitty records with 100 views I have ended up listening to on YouTube at 3am, it made me think :</p>
       
-      <blockquote>
-        "I need do also do some stuff like that"
-      </blockquote>
+      <blockquote>"I need do also do some stuff like that"</blockquote>
       
       <p>Since I wanted to challenge myself to make a full project in a week, it has become obvious immediately that I would need to make a mixing template. So I made one track and then used it as a template for the entire album both for consistency but also to save time.</p>
 
-     <h3>The Mix</h3>
+      <h3>The Mix</h3>
 
       <h4>Drums</h4>
-      <p>The Drums are simply a Drums VST (GGD - OKW : Brutal) with Reaper's stock reverb on the track, no splitting elments, straight out of the VST, some very slight humanize and we're good."I need do also do some stuff like that"</p>
+      <p>The Drums are simply a Drums VST (GGD - OKW : Brutal) with Reaper's stock reverb on the track, no splitting elements, straight out of the VST, some very slight humanize and we're good.</p>
 
       <h4>Guitars</h4>
-      <p>The Guitars are simply one panned right, one panned left. One has a slightly bigger low-cut, one has a slightly bigger high-cut. And that's literally it. They sometimes harmonize, but most of the time play the same thing. There is also a lead guitar in some tracks, it's simply another preset from the same amp sim, with a strong low-cut and high-cut. The guitar I used for the record is the same on every track : a Solar A1.71A  Assassin. 7 Strings, Evertune Bridge, a single Fishman Fluence Opencore pickup on the bridge position. Nothing more than whats needed.</p>
+      <p>The Guitars are simply one panned right, one panned left. One has a slightly bigger low-cut, one has a slightly bigger high-cut. And that's literally it. They sometimes harmonize, but most of the time play the same thing. There is also a lead guitar in some tracks, it's simply another preset from the same amp sim, with a strong low-cut and high-cut. The guitar I used for the record is the same on every track : a Solar A1.71A Assassin. 7 Strings, Evertune Bridge, a single Fishman Fluence Opencore pickup on the bridge position. Nothing more than whats needed.</p>
 
       <h4>Bass</h4>
       <p>The Bass, interestingly, is a real bass. It's a Sterling Stingray by Music Man. A 4 strings bass which I dropped down to A. In Fact I didn't even bother tuning it down all the way and exclusively tuned down the lowest string and played everything on this string. Strings that have never been changed. The Mix I am pretty sure was a preset on Hellraiser by JST, probably layered with RBass.</p>
 
       <h4>Vocals</h4>
-       <p>The Voice, which obviously is mine (+ a feature), is just doing a mix of many screaming techniques, both exhaled and inhaled screams. Gutturals, Lows, Mids, Highs, Squeals, Yell, some weird stuff. There is even just non screamed vocal fry. A litle bit of this, A little bit of that. And obviously some vocal parts made use of mic cupping, there is no making a terrible sounding record and avoiding it. For the vocal mixing, for most of the record I had only two tracks, one main and one dub/harmony. They were "JS Screamer Starter" and the corresponding Dub preset from the Howard Benson Vocal Bundle from JST.</p>
+      <p>The Voice, which obviously is mine (+ a feature), is just doing a mix of many screaming techniques, both exhaled and inhaled screams. Gutturals, Lows, Mids, Highs, Squeals, Yell, some weird stuff. There is even just non screamed vocal fry. A little bit of this, A little bit of that. And obviously some vocal parts made use of mic cupping, there is no making a terrible sounding record and avoiding it. For the vocal mixing, for most of the record I had only two tracks, one main and one dub/harmony. They were "JS Screamer Starter" and the corresponding Dub preset from the Howard Benson Vocal Bundle from JST.</p>
 
       <h2>The Creative Process</h2>
-
 
       <h3>Song Writing</h3>
       <p>The Creative process was very chaotic, I did half the songs in 3 days, and then got ill, stopped for two days, and made the last half in 1.5 days</p>
 
-     <p>Lyrics writing was absolutely random, I pretty much just sung whatever came that I thought was more or less in the theme, without really thinking about it twice : if it fits, it fits. I didn't really do corrective takes. Writing lyrics is not my strength so I didn't really want to dive too deep into it and just wrote some kind of random generic stuff as I was recording.</p>
+      <p>Lyrics writing was absolutely random, I pretty much just sung whatever came that I thought was more or less in the theme, without really thinking about it twice : if it fits, it fits. I didn't really do corrective takes. Writing lyrics is not my strength so I didn't really want to dive too deep into it and just wrote some kind of random generic stuff as I was recording.</p>
 
       <h3>Last Minute Creative Decisions</h3>
 
-       <h4>Feature with André Mendes</h4>
-       <p>I knew early I could probably squeeze in a feature just for the fun but had no idea how to do it pretty much until it happened, as I was sharing my progress on the project with André, who is a singer in the band Insominds at the moment, on the progress, we decided we could have him featured on the project so I immediately made a quick track, sent it to him, told him to give me his best yogurt vocals and he quickly sent me back his vocal stems.</p>
+      <h4>Feature with André Mendes</h4>
+      <p>I knew early I could probably squeeze in a feature just for the fun but had no idea how to do it pretty much until it happened, as I was sharing my progress on the project with André, who is a singer in the band Insominds at the moment, on the progress, we decided we could have him featured on the project so I immediately made a quick track, sent it to him, told him to give me his best yogurt vocals and he quickly sent me back his vocal stems.</p>
 
-       <p>We did a little bit of tweaking to adjust a little the mix to make it fit and here it was. Lyrics weren't even really there so we had to kind of make them up last mintute. It was extremely fun to make a song together after so long knowing each other.</p>
+      <p>We did a little bit of tweaking to adjust a little the mix to make it fit and here it was. Lyrics weren't even really there so we had to kind of make them up last minute. It was extremely fun to make a song together after so long knowing each other.</p>
       
       <h4>Transition Tracks</h4>
-      <p>The non-music/transition tracks were actually the last thing to be done. I wanted 19 tracks specifically, for no specific reason, but that meant I had to add in transition tracks. That's when I decided to create the ambiant tracks that are actually the start of a lore tied to this project. This is also the album's name origin.</p>
+      <p>The non-music/transition tracks were actually the last thing to be done. I wanted 19 tracks specifically, for no specific reason, but that meant I had to add in transition tracks. That's when I decided to create the ambient tracks that are actually the start of a lore tied to this project. This is also the album's name origin.</p>
 
-      <p>There are 3 tracks that follow a similar pattern : "Backshop Practice" (the intro track), "Psychomorphic Delusions" and "Eventually, everything comes to an end", they are all three having ambiant sounds of different actions happening following a story, with each having music that is part of the scene : the music being played is played on Tsugaru Shamisen, then Guzheng (by myself) and then on Violin (by André Mendes and me). In the back of each of them, it is possible to hear some group reciting a text in a loop in an unknown language.</p>
+      <p>There are 3 tracks that follow a similar pattern : "Backshop Practice" (the intro track), "Psychomorphic Delusions" and "Eventually, everything comes to an end", they are all three having ambient sounds of different actions happening following a story, with each having music that is part of the scene : the music being played is played on Tsugaru Shamisen, then Guzheng (by myself) and then on Violin (by André Mendes and me). In the back of each of them, it is possible to hear some group reciting a text in a loop in an unknown language.</p>
 
-     <p>While the project itself didn't start with any real goal, towards the end of the making, it started to create some lore which, if everything goes right, should have its own continuity in later works of mine, may they be music or any other nature, but I cannot and do not want to disclose too much about this for now.</p>
+      <p>While the project itself didn't start with any real goal, towards the end of the making, it started to create some lore which, if everything goes right, should have its own continuity in later works of mine, may they be music or any other nature, but I cannot and do not want to disclose too much about this for now.</p>
 
       <h4>The Coverart</h4>
-      <p>The coverart was the last thing to be done, to make it I took inspiration mostly from 2010s deathcore and 2000s death metal coverarts, despite the album drawing from many influences such as slam, hardcore, metalcore, grindcore, goregrind etc, I wanted something quite basic, I feel "Lugak Ki En" from ROS was also a main influence, but since it was made only a few hours before the release, I had to be quick with the overal idea, still at the end the coverart looks decent. It was also for me the moment to make a newer and updated version of the logo to make it fit a little better.</p> 
+      <p>The coverart was the last thing to be done, to make it I took inspiration mostly from 2010s deathcore and 2000s death metal coverarts, despite the album drawing from many influences such as slam, hardcore, metalcore, grindcore, goregrind etc, I wanted something quite basic, I feel "Lugak Ki En" from ROS was also a main influence, but since it was made only a few hours before the release, I had to be quick with the overall idea, still at the end the coverart looks decent. It was also for me the moment to make a newer and updated version of the logo to make it fit a little better.</p> 
+      
       <hr>
       
       <p><em>Thank you for reading. More updates coming soon.</em></p>
     `
-  } 
+  }
 ];
 
 function t(key) {
@@ -473,12 +469,13 @@ function renderBlogPage(container) {
           <input type="text" id="blog-search" placeholder="${t('searchPlaceholder')}" style="flex:2;">
           <select id="category-filter">
             <option value="all">${t('allCategories')}</option>
-            <option value="tutorial">tutorial</option><option value="exhibition">exhibition</option>
-            <option value="music">music</option><option value="release">release</option><option value="art">art</option>
+            ${[...new Set(blogPosts.flatMap(p => p.categories))].map(cat => `<option value="${cat}">${cat}</option>`).join('')}
           </select>
           <select id="sort-select">
-            <option value="date-desc">${t('newestFirst')}</option><option value="date-asc">${t('oldestFirst')}</option>
-            <option value="name-asc">${t('titleAZ')}</option><option value="name-desc">${t('titleZA')}</option>
+            <option value="date-desc">${t('newestFirst')}</option>
+            <option value="date-asc">${t('oldestFirst')}</option>
+            <option value="name-asc">${t('titleAZ')}</option>
+            <option value="name-desc">${t('titleZA')}</option>
           </select>
         </div>
         <div id="blog-posts-list"></div>
@@ -493,19 +490,47 @@ function renderBlogPage(container) {
     const category = document.getElementById("category-filter")?.value;
     const sort = document.getElementById("sort-select")?.value;
     if (search) posts = posts.filter(p => p.title.toLowerCase().includes(search) || p.body.toLowerCase().includes(search));
-    if (category !== "all") posts = posts.filter(p => p.categories.includes(category));
+    if (category && category !== "all") posts = posts.filter(p => p.categories.includes(category));
     if (sort === "date-desc") posts.sort((a, b) => new Date(b.date) - new Date(a.date));
     if (sort === "date-asc") posts.sort((a, b) => new Date(a.date) - new Date(b.date));
     if (sort === "name-asc") posts.sort((a, b) => a.title.localeCompare(b.title));
     if (sort === "name-desc") posts.sort((a, b) => b.title.localeCompare(a.title));
+    
     const target = document.getElementById("blog-posts-list");
-    if (target) target.innerHTML = posts.length ? posts.map(post => `
-      <div class="brutal-panel" style="margin-bottom:1.2rem;">
-        <div class="panel-header">${post.title} <span style="float:right;">${post.date}</span></div>
-        <div class="panel-body"><div class="blog-post-content">${post.body}</div><div style="margin-top:1rem;"><span class="category-badge">${t('categories')}:</span> ${post.categories.map(c => `<span class="category-badge">${c}</span>`).join('')}</div></div>
-      </div>
-    `).join('') : `<p>${t('noArticles')}</p>`;
+    if (target) {
+      target.innerHTML = posts.length ? posts.map(post => `
+        <div class="brutal-panel" style="margin-bottom:1.2rem;">
+          <div class="panel-header">${post.title} <span style="float:right;">${post.date}</span></div>
+          <div class="panel-body">
+            <div class="blog-post-preview faded" id="preview-${post.id}">
+              <div class="blog-post-content">${post.body}</div>
+            </div>
+            <button class="read-more-btn" data-id="${post.id}">READ FULL ARTICLE</button>
+            <div style="margin-top:1rem;">
+              <span class="category-badge">${t('categories')}:</span> ${post.categories.map(c => `<span class="category-badge">${c}</span>`).join('')}
+            </div>
+          </div>
+        </div>
+      `).join('') : `<p>${t('noArticles')}</p>`;
+      
+      document.querySelectorAll('.read-more-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const id = btn.getAttribute('data-id');
+          const preview = document.getElementById(`preview-${id}`);
+          if (preview.classList.contains('expanded')) {
+            preview.classList.remove('expanded');
+            preview.classList.add('faded');
+            btn.textContent = 'READ FULL ARTICLE';
+          } else {
+            preview.classList.add('expanded');
+            preview.classList.remove('faded');
+            btn.textContent = 'COLLAPSE';
+          }
+        });
+      });
+    }
   }
+  
   document.getElementById("blog-search")?.addEventListener("input", renderBlogList);
   document.getElementById("category-filter")?.addEventListener("change", renderBlogList);
   document.getElementById("sort-select")?.addEventListener("change", renderBlogList);
@@ -531,7 +556,6 @@ function showDetailModal(type, item) {
     `;
   } 
   else if (type === "physical") {
-    // Build image gallery HTML
     let imagesHtml = '';
     if (item.detailImages && item.detailImages.length > 0) {
       imagesHtml = item.detailImages.map(img => `
