@@ -538,7 +538,7 @@ function renderBlogPage(container) {
 }
 
 function renderSupportPage(container) {
-  container.innerHTML = `<div class="brutal-panel"><div class="panel-header">${t('supportHeader')}</div><div class="panel-body"><a href="https://www.patreon.com/example" target="_blank" class="music-link" style="display:inline-block;">${t('patreon')} →</a><p style="margin-top:1rem;">${t('supportText')}</p></div></div>`;
+  container.innerHTML = `<div class="brutal-panel"><div class="panel-header">${t('supportHeader')}</div><div class="panel-body"><a href="https://www.patreon.com/c/lovekixxen" target="_blank" class="music-link" style="display:inline-block;">${t('patreon')} →</a><p style="margin-top:1rem;">${t('supportText')}</p></div></div>`;
 }
 
 function showDetailModal(type, item) {
