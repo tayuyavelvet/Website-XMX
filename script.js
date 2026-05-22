@@ -223,7 +223,7 @@ let digitalWorks = [
     title: "Mécanisphère",
     description: "Engrenage infernal appatant vers une dimension profonde, chaines d'entrave qui entrainent dans l'engrenage", 
     date: "3/26/2025", 
-    imageUrl: "images/iMécanisphère.jpg"
+    imageUrl: "images/Mécanisphère.jpg"
   },
   { 
     id: "vagues", 
